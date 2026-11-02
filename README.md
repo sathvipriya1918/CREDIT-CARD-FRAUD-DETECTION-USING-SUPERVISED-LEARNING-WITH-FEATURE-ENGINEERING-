@@ -1,6 +1,7 @@
 # CREDIT-CARD-FRAUD-DETECTION-USING-SUPERVISED-LEARNING-WITH-FEATURE-ENGINEERING-
 
 Problem statement:-
+
 The aim of the project is to predict fraudulent credit card transactions using machine learning models. This is crucial from the bank’s as well as customer’s perspective. The banks cannot afford to lose their customers’ money to fraudsters. Every fraud is a loss to the bank as the bank is responsible for the fraud transactions.
 
 The dataset contains transactions made over a period of two days in September 2013 by European credit cardholders. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. We need to take care of the data imbalance while building the model and come up with the best model by trying various algorithms.
@@ -9,6 +10,7 @@ The datasets contains transactions made by credit cards in September 2013 by Eur
 (frauds) account for 0.172% of all transactions.
 
 Steps in Implementing Credit Card Fraud Detection:-
+
 The steps are broadly divided into below steps. The sub steps are also listed while we approach each of the steps.
 Reading, understanding and visualising the data
 Preparing the data for modelling
@@ -39,6 +41,7 @@ The results of also showed that, in case of fraud detection, the performance of 
 Given the large imbalance ratio and number of transactions, over sampling should perhaps be favoured w.r.t. under sampling techniques. We have analysed various different types of oversampling and undersampling techniques. The various types were Random oversampling and SMOTE technique for oversampling and random, tomek links and cluster centroids for undersampling.We also used a combination of SMOTE and Tomek links. We found out that SMOTE and SMOTE with Tomek Links gave very good results as compared to others. Cluster centroids performed the worst.
 
 Installation, Setup, and Execution
+
 1. Download the project Credit Card Fraud Detection Using Machine Learning
 2. Extract the downloaded project into your computer
 3. Follow the link to Download the dataset and Extractinto project directory
@@ -46,6 +49,7 @@ Installation, Setup, and Execution
 	
 	
 Local Machine Version
+
 1. Install Anaconda IDE
 2. Goto the project directory
 3. Open Jupyter Notebook
